@@ -47,6 +47,7 @@ const projects: Project[] = [
     image: "/images/filmmaker.jpg",
     tags: ["Go", "Docker", "Kubernetes", "Prometheus"],
     github: "#",
+    featured: true,
     projectLink: "https://2bnchill.com/"
   },
 ];
