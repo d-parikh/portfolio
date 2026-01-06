@@ -22,7 +22,7 @@ const projects: Project[] = [
     title: "Hayyacom Admin Panel",
     description:
       "Multilingual event and guest management platform with role-based access, real-time analytics, and automated WhatsApp invitations.",
-    image: "/images/hayyacom.jpg",
+    image: "/images/hayyacom.JPG",
     tags: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
     github: "#",
     demo: "#",
@@ -33,7 +33,7 @@ const projects: Project[] = [
     title: "Menusnap Admin Panel",
     description:
       "AI Food Photo Enhancement Tool.Remove backgrounds, enhance visuals, and resize food images instantly for any platform.",
-    image: "/images/menusnap.jpg",
+    image: "/images/menusnap.JPG",
     tags: ["React", "Python", "TensorFlow", "D3.js"],
     github: "#",
     demo: "#",
@@ -44,7 +44,7 @@ const projects: Project[] = [
     title: "2BNChill Admin Panel and Filmmaker Admin Panel",
     description:
       "A Social Platform for Filmmakers & Movie Enthusiasts A centralized platform where filmmakers publish movies, track audience engagement, and connect with viewers-managed through a powerful admin system.",
-    image: "/images/filmmaker.jpg",
+    image: "/images/filmmaker.JPG",
     tags: ["Go", "Docker", "Kubernetes", "Prometheus"],
     github: "#",
     featured: true,
