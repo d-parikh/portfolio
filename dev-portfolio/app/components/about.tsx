@@ -11,7 +11,7 @@ const skills = [
     items: ["Javascript", "Typescript", "Python"],
   },
   {
-    category: "Database",
+    category: "Tools and Technologies",
     icon: Database,
     color: "text-purple-500",
     bgColor: "bg-purple-500/10",
