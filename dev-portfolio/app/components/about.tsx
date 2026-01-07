@@ -1,13 +1,20 @@
 "use client"; // required if using App Router and component has interactivity
 
-import { Code2, Database, Globe, Smartphone, Server, Zap } from "lucide-react";
+import { Code2, Database, Globe, Zap } from "lucide-react";
 
 const skills = [
   {
-    category: "Frontend",
+    category: "Languages",
     icon: Globe,
     color: "text-blue-500",
     bgColor: "bg-blue-500/10",
+    items: ["Javascript", "Typescript", "Python"],
+  },
+  {
+    category: "Database",
+    icon: Database,
+    color: "text-purple-500",
+    bgColor: "bg-purple-500/10",
     items: [
       "React",
       "Next.js",
@@ -15,29 +22,18 @@ const skills = [
       "Javascript",
       "TypeScript",
       "Tailwind CSS",
-      "Vue.js",
+      "Orval(Api Generation)",
+      "GraphQL",
+      "Django",
+      "Node.js(Foundation)",
+      "MySQL",
+      "MongoDB",
+      "Firebase",
+      "AWS",
+      "Docker",
+      "Git",
+      "Github",
     ],
-  },
-  {
-    category: "Backend",
-    icon: Server,
-    color: "text-green-500",
-    bgColor: "bg-green-500/10",
-    items: ["Django", "Node.js(Foundation)"],
-  },
-  {
-    category: "Database",
-    icon: Database,
-    color: "text-purple-500",
-    bgColor: "bg-purple-500/10",
-    items: ["MySQL", "MongoDB", "Firebase"],
-  },
-  {
-    category: "Devops and Tools",
-    icon: Smartphone,
-    color: "text-amber-500",
-    bgColor: "bg-amber-500/10",
-    items: ["AWS", "Docker", "Git", "Github"],
   },
 ];
 
@@ -95,7 +91,7 @@ const About = () => {
               Tech Stack
             </span>
             <h3 className="text-2xl font-bold mb-6">Skills & Technologies</h3>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid  gap-4">
               {skills.map((skill, i) => (
                 <div
                   key={skill.category}
