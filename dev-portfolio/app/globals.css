@@ -285,4 +285,5 @@ body {
   background: var(--background);
   font-family: var(--font-body);
   font-size: large;
+  color: #0a0a0a;
 }
